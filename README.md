@@ -33,3 +33,7 @@ This project simulates a restaurant review and ordering system similar to **Zoma
 Web Interface: A front-end application to interact with the data.
 User Reviews and Ratings: Allow users to leave reviews and ratings for restaurants.
 Search Functionality: Add the ability to search for restaurants based on location, cuisine, or ratings.
+
+## Acknowledgments
+Zomato: Inspiration for the project idea.
+MySQL: Database engine used for this project.
