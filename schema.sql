@@ -29,7 +29,7 @@ CREATE TABLE MenuItems (
     RestaurantID INT,
     ItemName VARCHAR(100) NOT NULL,
     Price DECIMAL(10,2),
-    FOREIGN KEY (RestaurantID) REFERENCES Restaurants(RestaurantID)
+    
 );
 
 -- Create a table for orders
@@ -39,6 +39,6 @@ CREATE TABLE Orders (
     RestaurantID INT,
     OrderDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     TotalAmount DECIMAL(10,2),
-    FOREIGN KEY (UserID) REFERENCES Users(UserID),
-    FOREIGN KEY (RestaurantID) REFERENCES Restaurants(RestaurantID)
+    
+
 );
